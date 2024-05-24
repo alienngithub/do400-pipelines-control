@@ -34,6 +34,9 @@ pipeline {
       }
       steps {
         echo 'Deploying ...'
+        echo "Taki Jenkins:"
+        sh 'cat Jenkinsfile'
+        echo "To byl Jenkins"
       }
     }
   }
